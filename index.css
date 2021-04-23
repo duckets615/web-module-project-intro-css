@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 62.5%;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -41,17 +41,22 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Page style */
-.container {
-    margin: auto;
+/* -------------------------------- */
+*{
     box-sizing: border-box;
-    font-size: 1.6rem;
-    width: 1160px;
-    border: 2pt dashed black;
+    max-width: 100%;
 }
-
+html {
+    font-size: 62.5%;
+}
 img {
-    width: 400px;
-    height: 200px;
+    height: 14rem;
+    width: 14rem;
+}
+.container {
+    font-size: 1.6rem;
+    font-family: 'Roboto', monospace;
+    margin: auto;
+    border: 2pt solid purple;
+    width: 1160px;
 }
